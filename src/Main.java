@@ -28,7 +28,7 @@ public class Main {
                 }
              }
         }catch(IOException e){
-            System.out.println("An error occurred while reading the file: " + e.getMessage());
+            System.out.println("An error occurred while reading the file:" + e.getMessage());
         }
          int numOfBatchFiles = 0;
         int numOfVerifiedBatchFiles = 0;
